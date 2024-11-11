@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b> 🎭जय श्री राम {} {},
+    START_TXT = """<b> 🎭ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ {} {},
     
 <blockquote>ɪᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɪ ᴘᴏᴡᴇʀᴅ 🤖 ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ..
 sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ..✨</blockquote>
@@ -16,7 +16,7 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 
     ABOUT_TXT = """<b>╭────[ MY ᴅᴇᴛᴀɪʟꜱ ]────⍟
 ├⍟ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Royal_X_RoxStar'>Rox࿐Star✧</a>
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Royal_X_RoxStar'>जय श्री राम</a>   
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Royal_X_RoxStar'>ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ</a>   
 ├⍟ ᴡᴇʙsɪᴛᴇ : <a href="https://ipopcornsite.blogspot.com">ʟɪɴᴋ</a>
 ├⍟ Wʜᴀᴛsᴀᴘᴘ Cʜᴀɴɴᴇʟ : <a href="https://whatsapp.com/channel/0029Vaft9TOBA1f0QkUmdt2j">ʟɪɴᴋ</a>
 ├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.2 [ꜱᴛᴀʙʟᴇ]
@@ -254,7 +254,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/You_Want_To_Know_Me">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/Royal_X_RoxStar>[Rox࿐Star✧]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/You_Want_To_Know_Me">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/You_Want_To_Know_Me>[Rox࿐Star✧]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
