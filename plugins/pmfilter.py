@@ -1549,7 +1549,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("ᴠɪᴇᴡ ꜱᴛᴀᴛᴜꜱ", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/I_PapCornBeta")
+                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/xyzmovieshu")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -2407,7 +2407,7 @@ async def auto_filter(client, msg, spoll=False):
                 await m.delete()
                 if settings["spell_check"]:
                   #  st=await message.reply_sticker(sticker="CAACAgQAAxkBAAEq2R9mipkiW9ACyj7oQXznwKTPHqNCXQACkBUAA3mRUZGx4GwLX9XCHgQ")
-                    ai_sts = await message.reply_text('𝑷𝒐𝒑𝑪𝒐𝒓𝒏 𝑪𝒉𝒆𝒄𝒌𝒊𝒏𝒈 𝒀𝒐𝒖𝒓 𝑺𝒑𝒆𝒍𝒍𝒊𝒏𝒈...')
+                    ai_sts = await message.reply_text('𝘼𝙡𝙤𝙣𝙚 𝘾𝙝𝙚𝙘𝙠𝙞𝙣𝙜 𝙏𝙝𝙚 𝙎𝙥𝙚𝙡𝙡𝙞𝙣𝙜...')
                     is_misspelled = await ai_spell_check(chat_id = message.chat.id,wrong_name=search)
                     if is_misspelled:
                     #    await ai_sts.edit(f'<b>Ai Suggested <code>{is_misspelled}</code>\nSo Im Searching for <code>{is_misspelled}</code></b>')
