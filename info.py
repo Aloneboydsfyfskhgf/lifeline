@@ -54,13 +54,13 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 
 
 # Verify
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 24)) # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002309254510')) #Log channel id ( make sure bot is admin )
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_too_penlink/27') # How to open tutorial link for verification
 
 # Shortner 
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkpays.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'e27949c396504dca50e6caed52b70917f00593c9')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_too_penlink/27') # Tutorial video link for opening shortlink website 
