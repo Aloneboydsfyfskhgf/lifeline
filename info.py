@@ -61,8 +61,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_too_penlink/27') 
 
 # Shortner 
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkpays.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e27949c396504dca50e6caed52b70917f00593c9')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'a62dcaf45b03427a18bd346b466bc56efab83a9b')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_too_penlink/27') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
