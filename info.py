@@ -33,7 +33,7 @@ CODE = (environ.get('CODE', 'https://graph.org/file/e419f801841c2ee3db0fc.jpg'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6324457826').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002208437940').split()] #Channel id for auto indexing ( make sure bot is admin )
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002228337057')) #Log channel id ( make sure bot is admin )
-DEENDAYAL_MOVIE_UPDATE_CHANNEL = int(environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL', '-1002205583414')) #Notification of those who verify will be sent to your channel. Enter the ID of the channel you want to send notification to here.
+DEENDAYAL_MOVIE_UPDATE_CHANNEL = int(environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL', '-1002205583414 -1002473045711')) #Notification of those who verify will be sent to your channel. Enter the ID of the channel you want to send notification to here.
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '0')) # add premium logs channel id
 auth_channel = environ.get('AUTH_CHANNEL', '-1002199891363') #Channel / Group Id for force sub ( make sure bot is admin )
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002235582796').split()]
@@ -67,8 +67,8 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_too_penlink/27') # Tutorial
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 #Channel & Group link 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/xyzmovieshu')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/xyzmovie_hub')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/xyzmoviesjerry')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movieupdtehub')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Mrkillersss')
 
 
