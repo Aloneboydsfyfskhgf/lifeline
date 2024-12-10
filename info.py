@@ -35,14 +35,14 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002228337057')) #Log channel id ( make sure bot is admin )
 DEENDAYAL_MOVIE_UPDATE_CHANNEL = int(environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL', '-1002205583414')) #Notification of those who verify will be sent to your channel. Enter the ID of the channel you want to send notification to here.
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '0')) # add premium logs channel id
-auth_channel = environ.get('AUTH_CHANNEL', '-1002199891363 -1002473045711') #Channel / Group Id for force sub ( make sure bot is admin )
+auth_channel = environ.get('AUTH_CHANNEL', '-1002199891363') #Channel / Group Id for force sub ( make sure bot is admin )
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002235582796').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '0') # support group id ( make sure bot is admin )
 reqst_channel = environ.get('REQST_CHANNEL_ID', '0') # request channel id ( make sure bot is admin ).
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ansari:ikra765592@cluster0.op7ki.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Deendayal_files')
 
