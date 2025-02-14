@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20901045'))
 API_HASH = environ.get('API_HASH', 'dec03cafafbd892b285499762a896082')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7573869434:AAGRlQ87MRhCRHiDSA7WKx2bMw-LV86FvOM")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -42,7 +42,7 @@ reqst_channel = environ.get('REQST_CHANNEL_ID', '0') # request channel id ( make
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ansari:ikra765592@cluster0.op7ki.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Deendayal_files')
 
